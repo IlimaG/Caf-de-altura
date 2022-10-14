@@ -140,12 +140,13 @@ li a {
     border-radius: 4px;
     font-weight: 600;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
 }
 
 
 
 #section2 {
-    background-image: url(./assets/img/086aa1e226e5adfe010fd0fb3ff3e2cb.jpg);
+    background-image: url(../assets/img/086aa1e226e5adfe010fd0fb3ff3e2cb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -255,7 +256,7 @@ li a {
     max-width: 282px;
     max-height: 391.39px;
     border-radius: 8px;
-    margin: 0 10px 44px 10px;
+    margin:0 15px 44px 15px ;
 }
 
 
@@ -343,6 +344,14 @@ details {
 details img {
     width: 10px;
     height: 6px;
+    -webkit-transition: all 0.5s ease-out;    
+}
+
+details img:hover {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
 }
 
 summary {

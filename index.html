@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Café de Altura</title>
 </head>
 
@@ -52,7 +52,7 @@
 
                 <article>
                     <button id="button-origin" type="submit"><a href="">Descubrir oígenes</a></button>
-                    <button id="button-buy" type="submit">Comprar café</button>
+                    <button id="button-buy" type="submit"><a href="">Comprar café</a></button>
                 </article>
             </div>
 
@@ -62,7 +62,7 @@
         </section>
 
 
-        <section id="section2">           
+        <section id="section2">
             <h2>Café con las mejores condiciones</h2>
             <div id="info" class="container">
                 <div class="row">
@@ -106,7 +106,7 @@
 
         <section id="section3">
             <h2>Novedades</h2>
-            <div class="row  justify-content-center">
+            <div class="row justify-content-center">
 
                 <div class="col-2">
                     <picture>
@@ -163,7 +163,7 @@
             <div>
                 <h2>Preguntas frecuentes</h2>
             </div>
-            <details open class="row justify-content-center">
+            <details class="row justify-content-center">
                 <summary>
                     <h3>¿Cómo hago el pedido?</h3><img src="./assets/img/flecha.png" alt="">
                 </summary>
@@ -171,7 +171,7 @@
                     preguntaremos cada cuánto quieres que te lo mandemos a casa y así nunca te quedarás sin café.
                 </p>
             </details>
-            <details open class="row justify-content-center">
+            <details class="row justify-content-center">
                 <summary>
                     <h3>¿Por qué los precios son tan bajos?</h3><img src="./assets/img/flecha.png" alt="">
                 </summary>
@@ -252,12 +252,62 @@
                                     <p>Teléfono</p>
                                     <div id="country">
                                         <select class="form-select">
-                                            <option selected>US</option>
-                                            <option value="1">ESP</option>
-                                            <option value="2">UK</option>
-                                            <option value="3">FR</option>
-                                            <option value="4">JAP</option>
-                                            <option value="5">ITA</option>
+                                            <option value="AL">AL</option>
+                                            <option value="AF">AF</option>
+                                            <option value="DE">DE</option>
+                                            <option value="AD">AD</option>
+                                            <option value="AO">AO</option>
+                                            <option value="AI">AI</option>
+                                            <option value="AQ">AQ</option>
+                                            <option value="AG">AG</option>
+                                            <option value="AN">AN</option>
+                                            <option value="SA">SA</option>
+                                            <option value="DZ">DZ</option>
+                                            <option value="AR">AR</option>
+                                            <option value="AM">AM</option>
+                                            <option value="AW">AW</option>
+                                            <option value="AU">AU</option>
+                                            <option value="AT">AT</option>
+                                            <option value="AZ">AZ</option>
+                                            <option value="BS">BS</option>
+                                            <option value="BH">BH</option>
+                                            <option value="BD">BD</option>
+                                            <option value="BB">BB</option>
+                                            <option value="BE">BE</option>
+                                            <option value="BZ">BZ</option>
+                                            <option value="BJ">BJ</option>
+                                            <option value="BM">BM</option>
+                                            <option value="BY">BY</option>
+                                            <option value="MM">MM</option>
+                                            <option value="BO">BO</option>
+                                            <option value="BA">BA</option>
+                                            <option value="BW">BW</option>
+                                            <option value="BR">BR</option>
+                                            <option value="BN">BN</option>
+                                            <option value="BG">BG</option>
+                                            <option value="BF">BF</option>
+                                            <option value="BI">BI</option>
+                                            <option value="BT">BT</option>
+                                            <option value="CV">CV</option>
+                                            <option value="KH">KH</option>
+                                            <option value="CM">CM</option>
+                                            <option value="CA">CA</option>
+                                            <option value="TD">TD</option>
+                                            <option value="CL">CL</option>
+                                            <option value="CN">CN</option>
+                                            <option value="CY">CY</option>
+                                            <option value="VA">VA</option>
+                                            <option value="CO">CO</option>
+                                            <option value="DM">DM</option>
+                                            <option value="EC">EC</option>
+                                            <option value="EG">EG</option>
+                                            <option value="SV">SV</option>
+                                            <option value="AE">AE</option>
+                                            <option value="ER">ER</option>
+                                            <option value="SI">SI</option>
+                                            <option value="ES" selected>ES</option>
+                                            <option value="US">US</option>
+                                            <option value="ZW">ZW</option>
                                             <label for="tel">Teléfono</label>
                                         </select>
                                         <input type="tel" id="tel" name="tel" placeholder="+1 (555) 987-6543">
@@ -289,7 +339,7 @@
 
         <footer>
             <div class="row">
-                <div class="col-6">
+                <div class="col-5">
                     <div id="logo2">
                         <a href="">cafedealtura.com <img src="./assets/img/Vector.png" alt=""></a>
                     </div>
@@ -301,7 +351,7 @@
                     </div>
                 </div>
 
-                <ul class="col">
+                <ul class="col-3">
                     <li><a href="">Tienda</a></li>
                     <li><a href="">Suscripción</a></li>
                     <li><a href="">Para empresas</a></li>
@@ -309,7 +359,7 @@
                     <li><a href="">Contacto</a></li>
                 </ul>
 
-                <ul class="col">
+                <ul class="col-4">
                     <li><a href="">Política de privacidad</a></li>
                     <li><a href="">Política de cookies</a></li>
                     <li><a href="">Términos y condiciones</a></li>
