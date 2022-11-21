@@ -19,7 +19,6 @@ a:active {
 .row {
     margin-right: 0;
     margin-left: 0;
-    flex-wrap: nowrap;
 }
 
 nav {
@@ -51,11 +50,15 @@ li a {
     text-decoration: none;
 }
 
+#logo {
+    display: flex;
+    align-items: center;
+}
+
 #logo img {
     width: 20.29px;
     height: 24.95px;
-    margin-left: 7.33px;
-    margin-bottom: 7PX;
+    margin-left: -10px;
 }
 
 #logo h3 {
@@ -68,6 +71,34 @@ li a {
     width: 18px;
     height: 18px;
     margin-right: 11px
+}
+
+@media (max-width: 1140px) {
+    #number {
+        display: none;
+    }
+
+    #nav {
+        font-size: 12px;
+    }
+
+    #cart {
+        margin-left: 20px;
+    }
+
+    #logo img {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 875px) {
+    nav h3 {
+        display: none;
+    }
+
+    details {
+        max-width: 568px;
+    }
 }
 
 #contact button {
@@ -130,6 +161,7 @@ li a {
     font-weight: 600;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-right: 16px;
+    margin-bottom: 40px;
 }
 
 #button-buy {
@@ -147,21 +179,21 @@ li a {
 
 #section2 {
     background-image: url(../assets/img/086aa1e226e5adfe010fd0fb3ff3e2cb.jpg);
-    background-repeat: no-repeat;
+    background-repeat: space;
     background-size: cover;
     background-position: center;
     justify-content: space-between;
     text-align: center;
-    height: 380px;
+
 
 }
 
 #section2 h2 {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 28px;
+    line-height: 26px;
     font-weight: 500;
     color: #FFFFFF;
-    padding: 48px 0 24px 0;
+    padding: 48px 0 48px 0;
 }
 
 #info {
@@ -189,6 +221,7 @@ li a {
     height: auto;
     border-radius: 8px;
     margin-right: 24px;
+    margin-bottom: 10px;
     padding: 44px 30px 24px 30px;
     box-shadow: 0 1px 4px 0 rgba(227, 222, 215, 0.8);
 
@@ -232,8 +265,8 @@ li a {
 
 
 #section3 img {
-    width: 219.39px;
-    height: 219.39px;
+    max-width: 219.39px;
+    max-height: 219.39px;
     padding: 24px 31px;
 }
 
@@ -251,16 +284,15 @@ li a {
     margin-bottom: 40px;
 }
 
-#section3 .col-2 {
+.buy {
     border: solid 2px #F7F5F3;
     max-width: 282px;
     max-height: 391.39px;
     border-radius: 8px;
-    margin:0 15px 44px 15px ;
+    margin: 0 12px 44px 5px
 }
 
-
-#section3 .col-2:hover {
+.buy:hover {
     background-color: rgba(227, 222, 215, 0.3);
 }
 
@@ -278,22 +310,26 @@ li a {
 
 #section3 button {
     background-color: rgba(42, 91, 69, 0.7);
-    color: #FFFFFF;
     padding: 6px 8px;
     border-radius: 4px;
     border: none;
-    font-weight: 600;
     margin-bottom: 24px;
+}
+
+#section3 button a {
+    color: #FFFFFF;
 }
 
 #section3 button:hover {
     background-color: #2A5B45;
+    font-weight: 600;
 }
 
 
 #see-more img {
     height: 8px;
     width: 18px;
+    margin-left: 19px;
     padding: 0;
 }
 
@@ -303,7 +339,7 @@ li a {
 
 #section4 {
     background-color: #2A5B45;
-    padding: 48px 0 52px 0;
+    padding: 48px 20px 52px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -344,13 +380,10 @@ details {
 details img {
     width: 10px;
     height: 6px;
-    -webkit-transition: all 0.5s ease-out;    
+    -webkit-transition: all 0.3s ease-out;
 }
 
 details img:hover {
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
 }
 
@@ -390,7 +423,7 @@ details h3 {
 #section5 {
     background-color: #F7F5F3;
     align-items: center;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
 }
 
 #section5 h2 {
@@ -398,6 +431,7 @@ details h3 {
     font-weight: 500;
     line-height: 28px;
     color: #2A5B45;
+    margin-top: 40px;
 }
 
 #section5 p {
@@ -420,10 +454,12 @@ details h3 {
     width: 18px;
     height: 8px;
     margin-left: 19px;
+    margin-bottom: 40px;
 }
 
 #section5 img {
     border-radius: 20px;
+    margin-top: 40px;
 }
 
 
@@ -451,6 +487,9 @@ details h3 {
     margin-right: 8px;
 }
 
+.section6-1 {
+    margin-bottom: 20px;
+}
 
 #register {
     background-color: #FFFFFF;
@@ -475,8 +514,15 @@ details h3 {
     flex-wrap: nowrap;
 }
 
+#country #tel {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
 #country select {
     height: 34px;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
 }
 
 
@@ -568,4 +614,5 @@ footer li {
     font-weight: 600;
     line-height: 16px;
     text-align: center;
+    font-size: 14px;
 }
