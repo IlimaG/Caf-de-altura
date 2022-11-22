@@ -21,6 +21,16 @@ a:active {
     margin-left: 0;
 }
 
+#shopCart {
+    background-color: white;
+    padding: 40px;
+    border-radius: 6px;
+    position: fixed;
+    right: 10px;
+    top: 80.95px;
+    z-index: 1;
+    display: none;
+}
 nav {
     display: flex;
     align-items: center;
@@ -114,11 +124,17 @@ li a {
     margin-left: 24px;
 }
 
+#cart {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+    border: none;
+}
 
 #cart img {
     width: 24px;
     height: 24px;
-    margin-right: 35px;
 }
 
 
@@ -314,10 +330,8 @@ li a {
     border-radius: 4px;
     border: none;
     margin-bottom: 24px;
-}
-
-#section3 button a {
     color: #FFFFFF;
+    font-weight: 500;
 }
 
 #section3 button:hover {

@@ -15,7 +15,7 @@
 </head>
 
 <body>
-
+    <ul id="shopCart"></ul>
     <nav>
         <ul>
             <li id="logo">
@@ -38,8 +38,8 @@
             <li><button>Iniciar sesión</button></li>
         </ul>
 
-        <div id="cart">
-            <a class="active" href="#"><img src="./assets/img/Carr.png" alt=""></a>
+        <div >
+            <button id="cart"><img src="./assets/img/Carr.png" alt=""></button>
         </div>
     </nav>
 
@@ -52,7 +52,7 @@
                 </article>
 
                 <article>
-                    <button id="button-origin" type="submit"><a href="">Descubrir oígenes</a></button>
+                    <button id="button-origin" type="submit"><a href="">Descubrir orígenes</a></button>
                     <button id="button-buy" type="submit"><a href="">Comprar café</a></button>
                 </article>
             </div>
@@ -105,6 +105,7 @@
             </div>
         </section>
 
+
         <section id="section3">
             <h2>Novedades</h2>
             <div class="row justify-content-center">
@@ -117,7 +118,7 @@
                         <a href="">Costa Rica Tarrazú</a>
                         <p>9,00 €</p>
                     </article>
-                    <button><a href="">Añadir</a></button>
+                    <button id="btnTarrazu" onclick="newCoffe(this)">Añadir</button>
                 </div>
 
                 <div class="col-sm-6 col-lg-3 buy">
@@ -128,7 +129,7 @@
                         <a href="">Colombia Los Naranjos</a>
                         <p>9,00 €</p>
                     </article>
-                    <button><a href="">Añadir</a></button>
+                    <button id="btnLosNaranjos" onclick="newCoffe(this)">Añadir</button>
                 </div>
 
                 <div class="col-sm-6 col-lg-3 buy">
@@ -139,7 +140,7 @@
                         <a href="">Laos Amanecer</a>
                         <p>9,00 €</p>
                     </article>
-                    <button><a href="">Añadir</a></button>
+                    <button id="btnLaosAmanecer" onclick="newCoffe(this)">Añadir</button>
                 </div>
 
                 <div class="col-sm-6 col-lg-3 buy">
@@ -150,7 +151,7 @@
                         <a href="">Etiopía Yrgacheff</a>
                         <p>9,00 €</p>
                     </article>
-                    <button><a href="">Añadir</a></button>
+                    <button id="btnEtiopíaYrgacheff" onclick="newCoffe(this)">Añadir</button>
                 </div>
 
             </div>
@@ -368,6 +369,7 @@
             </div>
             <h5 id="copyR">Todos los derechos reservados - Café de Altura SL - 2022</h5>
         </footer>
+        <script src="./JS/main.js"></script>
 </body>
 
 </html>
