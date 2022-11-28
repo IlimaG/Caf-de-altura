@@ -15,8 +15,15 @@
 </head>
 
 <body>
-    <div id="shopCart">
-        <p id="total"></p>
+    <div id="shop">
+        <div id="shopCart">
+            <div id="emptyCart"> La cesta esta vacia</div>
+        </div>
+
+        <div id="cest">
+            <button id="goToCart">Ir a la cesta</button>
+            <button id="deleteAll"><img src="./assets/img/papelera.png" alt=""></button>
+        </div>
     </div>
     <nav>
         <ul>
@@ -40,8 +47,8 @@
             <li><button>Iniciar sesión</button></li>
         </ul>
 
-        <div >
-            <button id="cart"><img src="./assets/img/Carr.png" alt=""></button>
+        <div>
+            <button id="cart"><img src="./assets/img/Carr.png" alt=""> <span id="totalProducts"></span></button>
         </div>
     </nav>
 
@@ -81,14 +88,16 @@
                         </p>
                     </article>
 
-                    <article class="col-sm-12 col-lg-3" id="car">
-                        <picture>
-                            <img src="./assets/img/Icon (1).png" alt="Car icon">
+                    <article class="col-sm-12 col-lg-3"   >
+                        <div id="car">
+                        <picture id="car"> 
+                            <img src="./assets/img/Icon (1).png" alt="Car icon" >
                         </picture>
                         <h3>Envío en 24/48h</h3>
                         <p>
                             Pide tu café antes de las 12h y lo recibirás al día siguiente.
                         </p>
+                    </div>
                     </article>
 
                     <article class="col-sm-12 col-lg-3" id="gift">
@@ -167,30 +176,40 @@
             <div>
                 <h2>Preguntas frecuentes</h2>
             </div>
-            <details class="row justify-content-center">
-                <summary>
-                    <h3>¿Cómo hago el pedido?</h3><img src="./assets/img/flecha.png" alt="">
-                </summary>
-                <p>Selecciona el café que desees probar y completa el proceso de compra. Si lo prefieres, te
-                    preguntaremos cada cuánto quieres que te lo mandemos a casa y así nunca te quedarás sin café.
-                </p>
-            </details>
-            <details class="row justify-content-center">
-                <summary>
-                    <h3>¿Por qué los precios son tan bajos?</h3><img src="./assets/img/flecha.png" alt="">
-                </summary>
-                <p>Viajamos constantemente para encontrar los mejores granos y a los agricultores más exigentes. Si
-                    podemos ofrecerte estos precios es porque tratamos directamente con los productores de café, sin
-                    intermediarios. Así obtenemos el mejor precio para ti y la persona que está detrás de los granos
-                    de
-                    café recibe el mayor beneficio posible. </p>
-            </details>
-            <details class="row justify-content-center">
-                <summary>
-                    <h3>¿Es posible enviar café a mi oficina?</h3> <img src="./assets/img/flecha.png" alt="">
-                </summary>
-                <p>Este es el texto oculto que se muestra al desplegarse.</p>
-            </details>
+            <div class="row justify-content-center drop-down">
+                <article>
+                    <h3>¿Cómo hago el pedido?</h3> <button class="dropDown1"><img src="./assets/img/flecha.png"
+                            alt=""></button>
+                </article>
+                <article >
+                    <p class="text1">Selecciona el café que desees probar y completa el proceso de compra. Si lo prefieres, te
+                        preguntaremos cada cuánto quieres que te lo mandemos a casa y así nunca te quedarás sin café.
+                    </p>
+                </article>
+            </div>
+            <div class="row justify-content-center drop-down">
+                <article>
+                    <h3>¿Por qué los precios son tan bajos?</h3><button class="dropDown2"><img
+                            src="./assets/img/flecha.png" alt=""></button>
+                </article>
+                <article >
+                    <p class="text2 ">Viajamos constantemente para encontrar los mejores granos y a los agricultores más
+                        exigentes. Si
+                        podemos ofrecerte estos precios es porque tratamos directamente con los productores de café, sin
+                        intermediarios. Así obtenemos el mejor precio para ti y la persona que está detrás de los granos
+                        de
+                        café recibe el mayor beneficio posible. </p>
+                </article>
+            </div>
+            <div class="row justify-content-center drop-down">
+                <article>
+                    <h3>¿Es posible enviar café a mi oficina?</h3> <button class="dropDown3"><img
+                            src="./assets/img/flecha.png" alt=""></button>
+                </article>
+                <article >
+                    <p class="text3 ">Este es el texto oculto que se muestra al desplegarse.</p>
+                </article>
+            </div>
             <a href="">Resolvemos tus dudas <img src="./assets/img/felchalateral.png" alt=""></a>
         </section>
 
@@ -239,7 +258,7 @@
 
 
                 <div class="col-sm-12 col-lg-6">
-                    <form action="" method="post">
+                    <form id="form" method="post">
                         <div id="register">
                             <div>
                                 <div>
@@ -249,7 +268,7 @@
                                 </div>
                                 <div>
                                     <p>Email</p>
-                                    <input type="email" id="mail" name="user_mail">
+                                    <input type="text" id="mail" name="user_mail">
                                 </div>
 
                                 <div>
@@ -314,7 +333,7 @@
                                             <option value="ZW">ZW</option>
                                             <label for="tel">Teléfono</label>
                                         </select>
-                                        <input type="tel" id="tel" name="tel" placeholder="+1 (555) 987-6543">
+                                        <input type="text" id="tel" name="tel" placeholder="+1 (555) 987-6543">
                                     </div>
                                 </div>
 
@@ -373,6 +392,8 @@
         </footer>
 
         <script src="./JS/main.js"></script>
+        <script src="./JS/form.js"></script>
+        <script src="./JS/drop-down.js"></script>
 </body>
 
 </html>
