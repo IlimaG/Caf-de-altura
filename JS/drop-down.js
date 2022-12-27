@@ -1,3 +1,5 @@
+// DROP-DOWN
+
 const buttonDropDown1 = document.querySelector(".dropDown1")
 const text1 = document.querySelector(".text1")
 
@@ -36,4 +38,6 @@ buttonDropDown3.onclick = () => {
     }
 
 }
+
+
 

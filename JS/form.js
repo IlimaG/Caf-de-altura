@@ -1,3 +1,6 @@
+/////////////////////////////////////////
+
+// FORMULARIO
 
 const form = document.querySelector("#form")
 const nameInput = document.querySelector("#name")
@@ -44,3 +47,4 @@ const formValidation = (e) => {
 }
 
 form.addEventListener('submit', formValidation)
+

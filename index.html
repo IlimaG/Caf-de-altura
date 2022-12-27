@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Café de Altura</title>
+    <title>Café de Altura - Home</title>
 </head>
 
 <body>
@@ -21,14 +21,14 @@
         </div>
 
         <div id="cest">
-            <button id="goToCart">Ir a la cesta</button>
+            <a href="./pages/cartShop.html" id="goToCart">Ir a la cesta</a>
             <button id="deleteAll"><img src="./assets/img/papelera.png" alt=""></button>
         </div>
     </div>
     <nav>
         <ul>
             <li id="logo">
-                <h3><a href="">cafedealtura.com</a> </h3>
+                <h3><a href="./index.html">cafedealtura.com</a> </h3>
                 <a href=""><img src="./assets/img/Vector.png" alt=""></a>
             </li>
         </ul>
@@ -52,12 +52,15 @@
         </div>
     </nav>
 
+
     <main>
         <section class="row" id="section1">
             <div class="col-sm-12 col-lg-6">
                 <article>
                     <h3>De la planta a tu taza</h3>
                     <h1>El mejor café de mundo, ahora en tu casa.</h1>
+                    <p>Trabajamos con agricultores de todo el mundo para seleccionar los mejores granos de café y que
+                        puedas viajar desde la comodidad de tu hogar.</p>
                 </article>
 
                 <article>
@@ -88,16 +91,16 @@
                         </p>
                     </article>
 
-                    <article class="col-sm-12 col-lg-3"   >
+                    <article class="col-sm-12 col-lg-3">
                         <div id="car">
-                        <picture id="car"> 
-                            <img src="./assets/img/Icon (1).png" alt="Car icon" >
-                        </picture>
-                        <h3>Envío en 24/48h</h3>
-                        <p>
-                            Pide tu café antes de las 12h y lo recibirás al día siguiente.
-                        </p>
-                    </div>
+                            <picture id="car">
+                                <img src="./assets/img/Icon (1).png" alt="Car icon">
+                            </picture>
+                            <h3>Envío en 24/48h</h3>
+                            <p>
+                                Pide tu café antes de las 12h y lo recibirás al día siguiente.
+                            </p>
+                        </div>
                     </article>
 
                     <article class="col-sm-12 col-lg-3" id="gift">
@@ -119,57 +122,13 @@
 
         <section id="section3">
             <h2>Novedades</h2>
-            <div class="row justify-content-center">
+            <article class="justify-content-between" id="section3Shop">
 
-                <div class="col-sm-6 col-lg-3 buy">
-                    <picture>
-                        <img src="./assets/img/Images.png" alt="coffee sack">
-                    </picture>
-                    <article>
-                        <a href="">Costa Rica Tarrazú</a>
-                        <p>9,00 €</p>
-                    </article>
-                    <button id="btnTarrazu" onclick="newCoffe(this)">Añadir</button>
-                </div>
+            </article>
 
-                <div class="col-sm-6 col-lg-3 buy">
-                    <picture>
-                        <img src="./assets/img/Images (1).png" alt="coffee sack">
-                    </picture>
-                    <article>
-                        <a href="">Colombia Los Naranjos</a>
-                        <p>9,00 €</p>
-                    </article>
-                    <button id="btnLosNaranjos" onclick="newCoffe(this)">Añadir</button>
-                </div>
-
-                <div class="col-sm-6 col-lg-3 buy">
-                    <picture>
-                        <img src="./assets/img/Images (2).png" alt="coffee sack">
-                    </picture>
-                    <article>
-                        <a href="">Laos Amanecer</a>
-                        <p>9,00 €</p>
-                    </article>
-                    <button id="btnLaosAmanecer" onclick="newCoffe(this)">Añadir</button>
-                </div>
-
-                <div class="col-sm-6 col-lg-3 buy">
-                    <picture>
-                        <img src="./assets/img/Images (3).png" alt="coffee sack">
-                    </picture>
-                    <article>
-                        <a href="">Etiopía Yrgacheff</a>
-                        <p>9,00 €</p>
-                    </article>
-                    <button id="btnEtiopíaYrgacheff" onclick="newCoffe(this)">Añadir</button>
-                </div>
-
-            </div>
-
-            <div class="row justify-content-center" id="see-more">
-                <a href="">Ver todos <img src="./assets/img/flechalateralnegra.png" alt=""></a>
-            </div>
+            <article class="row justify-content-center" id="see-more">
+                <a href="./pages/shop.html">Ver todos <img src="./assets/img/flechalateralnegra.png" alt=""></a>
+            </article>
         </section>
 
         <section id="section4">
@@ -181,8 +140,9 @@
                     <h3>¿Cómo hago el pedido?</h3> <button class="dropDown1"><img src="./assets/img/flecha.png"
                             alt=""></button>
                 </article>
-                <article >
-                    <p class="text1">Selecciona el café que desees probar y completa el proceso de compra. Si lo prefieres, te
+                <article>
+                    <p class="text1">Selecciona el café que desees probar y completa el proceso de compra. Si lo
+                        prefieres, te
                         preguntaremos cada cuánto quieres que te lo mandemos a casa y así nunca te quedarás sin café.
                     </p>
                 </article>
@@ -192,7 +152,7 @@
                     <h3>¿Por qué los precios son tan bajos?</h3><button class="dropDown2"><img
                             src="./assets/img/flecha.png" alt=""></button>
                 </article>
-                <article >
+                <article>
                     <p class="text2 ">Viajamos constantemente para encontrar los mejores granos y a los agricultores más
                         exigentes. Si
                         podemos ofrecerte estos precios es porque tratamos directamente con los productores de café, sin
@@ -206,7 +166,7 @@
                     <h3>¿Es posible enviar café a mi oficina?</h3> <button class="dropDown3"><img
                             src="./assets/img/flecha.png" alt=""></button>
                 </article>
-                <article >
+                <article>
                     <p class="text3 ">Este es el texto oculto que se muestra al desplegarse.</p>
                 </article>
             </div>
@@ -391,9 +351,12 @@
             <h5 id="copyR">Todos los derechos reservados - Café de Altura SL - 2022</h5>
         </footer>
 
-        <script src="./JS/main.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./JS/cart.js"></script>
         <script src="./JS/form.js"></script>
         <script src="./JS/drop-down.js"></script>
+        <script src="./JS/main.js"></script>
+
 </body>
 
 </html>
