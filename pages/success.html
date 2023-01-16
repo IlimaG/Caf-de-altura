@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Café de Altura - Home</title>
+</head>
+
+<body>
+    <div id="shop">
+        <div id="shopCart">
+            <div id="emptyCart"> La cesta esta vacia</div>
+        </div>
+
+        <div id="cest">
+            <a href="../pages/cartShop.html" id="goToCart">Ir a la cesta</a>
+            <button id="deleteAll"><img src="../assets/img/papelera.png" alt=""></button>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li id="logo">
+                <h3><a href="../index.html">cafedealtura.com</a> </h3>
+                <a href=""><img src="../assets/img/Vector.png" alt=""></a>
+            </li>
+        </ul>
+
+        <ul id="nav">
+            <li><a href="../pages/shop.html">Tienda</a></li>
+            <li><a href="#">Suscripción</a></li>
+            <li><a href="#">Para empresas</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <ul id="contact">
+            <li id="number"><img src="../assets/img/Icon.png" alt="">+34 919 49 05 18</li>
+            </li>
+            <li><button>Iniciar sesión</button></li>
+        </ul>
+
+        <div>
+            <button id="cart"><img src="../assets/img/Carr.png" alt=""> <span id="totalProducts"></span></button>
+        </div>
+    </nav>
+    <main id="success">
+        <picture id="checkIcon">
+            <img src="../assets/img/Icon.1.png" alt="Check icon" >
+        </picture>
+        <h2>El pedido ha sido realizado con éxito</h2>
+        <div id="orderNumber">
+            <p>El pedido #12387 se encuentra en preparación. <br>
+                Lo recibirás dentro de las fechas acordadas en tu envío. <br>
+                Hemos enviado un ticket a tu correo electrónico. <br>
+            </p>
+        </div>
+
+        <div id="order"></div>
+        <button><a href="../pages/shop.html">Volver a la tienda</a></button>
+    </main>
+    <footer>
+        <h5 id="copyR">Todos los derechos reservados - Café de Altura SL - 2022</h5>
+    </footer>
+
+    <script src="../JS/cart.js"></script>
+    <script src="../JS/success.js"></script>
+</body>
+
+</html>

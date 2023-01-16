@@ -519,6 +519,7 @@ li a {
     width: 18px;
     margin-left: 19px;
     padding: 0;
+    margin-top: 22px;
 }
 
 #see-more a {
@@ -574,9 +575,7 @@ li a {
     -webkit-transition: all 0.3s ease-out;
 }
 
-.drop-down img:hover {
-    transform: rotate(-180deg);
-}
+
 
 .drop-down article {
     width: 100%;
@@ -701,9 +700,12 @@ li a {
 }
 
 #country select {
+    max-width: 55px;
     height: 34px;
     border-right: none;
     border-radius: 4px 0 0 4px;
+    margin-right: 0;
+    border-color: #797979;
 }
 
 
@@ -809,24 +811,454 @@ footer li {
 
 /* CESTA HTML */
 
-#section7{ 
+#section7 {
     padding: 40px;
 }
 
-#section7 h2{
+#section7 h2 {
     font-size: 24px;
     font-weight: 500;
     text-align: center;
     color: #2A5B45;
-    margin-bottom: 24px;
 }
 
 #checkout {
     display: flex;
 }
 
-#CartTotal {
+#checkout h3 {
+    margin-top: 24px;
+}
+
+#cartTotal {
     background-color: #F7F5F3;
     position: fixed;
     right: 40px;
+    padding: 24px;
+    top: 22%;
+    width: 384px;
+    border-radius: 10px;
+}
+
+section#cartTotal div {
+    border-top: solid 1px #E3DED7;
+    border-bottom: solid 1px #E3DED7;
+    padding: 16px 0 0 0;
+    margin: 16px 0 16px 0;
+}
+
+#produtcsCart {
+    text-align: center;
+}
+
+#produtcsCart a {
+    color: #2A5B45;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#produtcsCart h4 {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#cartTotal span {
+    float: right;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#iva {
+    color: #515051;
+    font-weight: 400;
+    font-size: 12px;
+    float: right;
+    margin-top: -6px;
+}
+
+#goCheckout {
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    background: #2A5B45;
+    border-radius: 4px;
+    padding: 8px 18px;
+    margin-right: 40px;
+    border: none;
+}
+
+#goShop {
+    color: #2A5B45;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    bottom: 36px;
+}
+
+#allProducts {
+    display: flex;
+    width: 776px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3DED7;
+}
+
+#infoCoffe {
+    display: flex;
+    align-items: center;
+}
+
+.btnCoffe {
+    height: 24px;
+    width: 24px;
+    left: 0px;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#allProducts img {
+    height: 55px;
+    width: 55px;
+    margin: 24px 24px 24px 30px;
+}
+
+#cuantityCoffe {
+    padding: 4px 8.5px;
+    border-radius: 50%;
+    width: 24px;
+    margin: 0 14px 0 14px;
+    background-color: rgba(42, 91, 69, 0.1);
+    color: #2A5B45;
+
+}
+
+#allProducts h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#allProducts p {
+    letter-spacing: 0em;
+
+}
+
+#allProducts h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shippingBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 776px;
+}
+
+.shippingBox h5 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.shippingBox span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.standardDiv {
+    margin-top: 24px;
+}
+
+.firtHr {
+    border-bottom: solid 1px #E3DED7;
+}
+
+.standardDiv input[type=radio] {
+    width: 16px;
+    height: 16px;
+    accent-color: #2A5B45;
+    margin: 0 20px 0 0;
+    position: relative;
+    bottom: 13px;
+}
+
+#checkoutForm {
+    padding: 40px 40px 44px 40px;
+}
+
+#checkoutForm h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #2A5B45;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#checkoutForm h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 24px;
+
+}
+
+#checkoutForm label {
+    font-size: 12px;
+    margin: 0 0 -3px 0;
+}
+
+#checkoutForms input[type=radio] {
+    width: 12px;
+    height: 12px;
+    accent-color: #2A5B45;
+    position: relative;
+    bottom: 13px;
+    margin-right: 21px;
+}
+
+#checkoutForm label h4 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+
+}
+
+#checkoutForm label p {
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+label img {
+    width: 69.23px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#expiration {
+    max-width: 127.5px;
+}
+
+#cvc {
+    max-width: 127.5px;
+
+}
+
+#cvcLabel {
+    padding-left: 46px;
+}
+
+
+#bankTransferLabel {
+    display: flex;
+    align-items: center;
+    width: 776px;
+    padding: 24px 0 5px 0;
+    margin-left: 40px;
+    border-top: 1px solid #E3DED7;
+    border-bottom: 1px solid #E3DED7;
+    margin-top: -40px;
+}
+
+#bankTransferLabel h4 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+
+}
+
+
+#bizumLabel {
+    display: flex;
+    align-items: center;
+    padding-bottom: 28px;
+    margin-left: 40PX;
+}
+
+#bizumLabel h4 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#bizum {
+    position: relative;
+    top: -4px;
+}
+
+#address {
+    padding: 0 0 40px 40px;
+    margin-top: -40px;
+}
+
+#address h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+#address input,
+select {
+    width: 521px;
+    margin: 0 24px 8px 0;
+    padding: 8px 8px;
+    height: 36px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+
+#address label {
+    font-size: 12px;
+    margin: 0 0 -3px 0;
+}
+
+#checkoutForm input[type=text] {
+    margin: 0 24px 8px 0;
+    padding: 10px 8px;
+    width: 279px;
+    height: 36px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+
+#checkoutForm label {
+    font-size: 12px;
+    margin: 0 0 -3px 0;
+}
+
+.population {
+    max-width: 248.5px;
+}
+
+#cpLabel {
+    padding-left: 221px;
+}
+
+.houseInfo {
+    max-width: 112.25px;
+}
+
+#numLabel {
+    padding-left: 111px;
+}
+
+#apartamentLabel {
+    padding-left: 124px;
+}
+
+#doorLabel {
+    padding-left: 115px;
+}
+
+.disabled {
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+    background: #2A5B45;
+    border-radius: 4px;
+    padding: 8px 18px;
+    margin-right: 40px;
+    border: none;
+    opacity: 40%;
+}
+
+#checkIcon {
+    background-color: #2A5B45;
+    border-radius: 20px;
+    width: 64px;
+    height: 64px;
+    padding: 16.99px 16.99px;
+    margin-top: 60px;
+
+}
+
+#checkIcon img {
+    height: 30px;
+    width: 23px;
+    margin-bottom: 5px;
+}
+
+#success {
+    text-align: center;
+    padding: 40px;
+}
+
+#success h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #2A5B45;
+    margin: 24px;
+}
+
+.infoAllProducts {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+.allProducts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3DED7;
+    border: none;
+}
+
+.allProducts img {
+    height: 58px;
+    width: 58px;
+    margin: 24px 24px 24px 30px;
+}
+
+.allProducts h5 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.allProducts p {
+    margin-top: -6px;
+    margin-bottom: 4px;
+}
+
+
+.allProducts h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#order {
+    background: #F7F5F3;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+#totalPrice {
+    text-align: start;
+}
+
+#totalPrice span {
+    float: right;
+    font-weight: 600;
+}
+
+#totalPrice h5 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#success button {
+    width: 158px;
+    height: 40px;
+    background: #2A5B45;
+    border-radius: 4px;
+    border: none;
+}
+
+#subtotal {
+    border-top: solid 1px #E3DED7;
+    padding: 16px 0 5px 0;
+    border-bottom: solid 1px #E3DED7;
+    margin-bottom: 16px;
 }

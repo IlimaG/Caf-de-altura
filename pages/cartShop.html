@@ -48,20 +48,41 @@
     </nav>
 
     <div id="section7">
-        <h2>Cesta (2)</h2>
+        <h2 id="cuantityCest">Cesta (2)</h2>
         <div id="checkout">
-            <section>
+            <form>
                 <h3>Productos</h3>
                 <div id="produtcsCart"></div>
                 <h3>Seleccionar envío</h3>
-                <div></div>
-            </section>
+                <div>
+                    <article class="shippingBox firtHr">
+                        <div class="standardDiv">
+                            <input type="radio" name="shipping" id="standard" checked>
+                            <label for="standard">
+                                <h5>Envío 5-7 días</h5>
+                                <p>Opción estándar sin seguimiento</p>
+                            </label>
+                        </div>
+                        <span>GRATIS</span>
+                    </article>
 
-            <section id="CartTotal">
-                <h3>Total del carrito</h3>
-                <div></div>
-                <button>Ir a checkout</button>
-                <a href="../pages/shop.html">Seguir comprando</a>
+                    <article class="shippingBox">
+                        <div class="standardDiv">
+                            <input type="radio" name="shipping" id="express">
+                            <label for="standard">
+                                <h5>Envío urgente 24h </h5>
+                                <p>Recibe tu pedido en las siguientes 24h (Para pedidos realizados antes de las
+                                    13:00).
+                                </p>
+                            </label>
+                        </div>
+                        <span>9,00 €</span>
+                    </article>
+                </div>
+            </form>
+
+            <section id="cartTotal">
+
             </section>
         </div>
 
@@ -77,7 +98,6 @@
 
 
     <script src="../JS/cartShop.js"></script>
-    <script src="../JS/cart.js"></script>
 </body>
 
 </html>

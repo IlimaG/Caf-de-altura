@@ -1,6 +1,5 @@
 
 let coffeStorage = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : []
-// let noDuplicates = localStorage.getItem('noDuplicates') ? JSON.parse(localStorage.getItem('noDuplicates')) : []
 
 // IMPRIMIR CESTA
 
@@ -125,27 +124,6 @@ const minus = (button) => {
 
     actCart()
 }
-
-
-
-
-
-
-
-// }
-
-// printCest()
-
-
-
-
-
-
-
-
-
-
-
 
 // MOSTRAR/OCULTAR CESTA
 

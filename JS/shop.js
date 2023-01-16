@@ -2,7 +2,7 @@
 
 // PRODUCTOS ALLSHOP
 axios
-    .get(`https://cafe-de-altura-api.vercel.app/api/products`)
+    .get(`https://cafe-de-altura-api.vercel.app/api/product`)
     .then(response => {
         const products = response.data.products
 
