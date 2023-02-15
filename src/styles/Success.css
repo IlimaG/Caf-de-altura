@@ -1,0 +1,12 @@
+#Success {
+    padding-top: 40px;
+}
+
+#success {
+    padding: 0 40px 80px;
+    text-align: center;
+}
+
+#success  button{
+    margin: 24px;
+}

@@ -1,0 +1,26 @@
+.conditionsList {
+    background-image: url(../../assets/img/086aa1e226e5adfe010fd0fb3ff3e2cb.jpg);
+    background-repeat: no-repeat;
+    background-size:105%;
+    background-position:center;
+    text-align: center;
+    padding: 48px 40px;
+   
+}
+
+.conditionsList h2{
+    font-size: 28px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.conditionsListCard {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+

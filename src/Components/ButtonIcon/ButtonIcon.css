@@ -1,0 +1,28 @@
+button img {
+    width: 18px;
+    height: auto;
+    margin-right: 7px;
+
+}
+
+.btnIcon {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.btnIconGray {
+    background-color: #515051;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.btnIconBlack {
+    background-color: #2B2A2B;
+    color: #FFFFFF;
+}
+
+.transparentBtn {
+    background-color: transparent;
+    color: #6B7280;
+}

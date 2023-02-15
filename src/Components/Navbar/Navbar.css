@@ -1,0 +1,59 @@
+nav a {
+    color: #FFF;
+}
+
+nav {
+    background-color: #2B2A2B;
+    padding: 12px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: fixed;
+    width: 103.5rem;;
+    z-index: 1;
+    top: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+nav ul a:hover {
+    background: #F7F5F31A;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+#contact {
+    display: flex;
+    gap: 24px;
+}
+
+nav button {
+    background-color: transparent;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    color: #FFF;
+}
+
+nav button img {
+    width: 24px;
+    height: 24px;
+
+}
+
+nav span {
+    background: #F7F5F31A;
+    /* width: 20px; */
+    /* height: 20px; */
+    padding: 4px 8.5px;
+    border-radius: 50%;
+    text-align:j;
+}
+

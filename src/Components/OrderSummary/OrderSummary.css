@@ -1,0 +1,81 @@
+#orderSummary {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #F7F5F3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+}
+
+#orderSummary h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: -1075px;
+}
+
+.orderProduct {
+    display: flex;
+    justify-content: space-between;
+    width: 1152px;
+}
+
+.orderProduct img {
+    width: 55px;
+    height: 55px;
+}
+
+.orderInfo {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    text-align: start;
+}
+
+#orderTotalPrice p {
+    display: flex;
+    width: 1152px;
+    justify-content: space-between;
+    gap: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 16px 0;
+}
+
+#orderTotalPrice h5 {
+    display: flex;
+    width: 1152px;
+    justify-content: space-between;
+    gap: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+#orderTotalPrice span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#IVA {
+    text-align: right;
+    position: relative;
+    left: 1040px;
+    bottom: 6px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #515051;
+    max-width: 120px;
+    margin-right: 0;
+}
+
+#subtotal {
+    border-top: 1px solid #E3DED7;
+    border-bottom: 1px solid #E3DED7;
+    margin-bottom: 16px;
+}

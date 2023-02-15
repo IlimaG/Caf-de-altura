@@ -1,0 +1,93 @@
+.contactForm {
+    background-color: #E3DED7;
+    color: #6B7280;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    padding: 24px;
+}
+
+.contactForm a {
+    color: black;
+    font-weight: 600;
+    line-height: 16px;
+    text-decoration: underline;
+}
+
+.contactForm form {
+    background-color:
+        #FFFFFF;
+    color: #6B7280;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px 44px 51px 67px;
+}
+
+.contactForm form p {
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.contactForm form #tel {
+    width: 402px;
+    height: 33px;
+    border-radius: 0 6px 6px 0;
+    border: solid 1px;
+    border-color: #797979 #797979 #797979 transparent;
+}
+
+#country {
+    display: flex;
+    height: 34px;
+    border-right: none;
+    margin-right: 0;
+    border-color: #797979;
+}
+
+#country select {
+    width: 68px;
+    height: 34px;
+    border-radius: 6px 0 0 6px;
+    border-color: #797979 transparent #797979 #797979;
+}
+
+.infoContactForm form input[type=text] {
+    height: 34px;
+    width: 100%;
+    border-radius: 6px;
+    border: solid 1px #797979;
+}
+
+.infoContactForm textarea {
+    width: 470px;
+    border-radius: 6px;
+    border: solid 1px #797979;
+    margin-top:30px;
+}
+
+.infoContactForm button {
+    width: 90px;
+}
+
+#privacy{
+    display: flex;
+    gap: 12px;
+}
+
+#privacyH4{
+    margin-top: -25px;
+}
+
+.infoContactForm h4{
+    color: red;
+    font-weight: 400;
+}

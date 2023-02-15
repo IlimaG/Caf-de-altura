@@ -1,0 +1,29 @@
+.productCard{
+    border: solid 2px #F7F5F3;
+    border-radius: 8px;
+    padding: 24px 31px;
+    max-width: 282px;
+}
+
+.productCard:hover {
+    background-color: rgba(227, 222, 215, 0.3);
+}
+
+.productCard h5 {
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.productCard p {
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 24px;
+}
+
+.outStock {
+    opacity: 40%;
+}
+

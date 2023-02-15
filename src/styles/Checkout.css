@@ -1,0 +1,160 @@
+#Checkout{
+    padding-top: 40px;
+}
+
+#checkout {
+    display: flex;
+    padding:  0 40px;
+}
+
+#checkout h5{
+    color:#2A5B45;
+    font-weight:600;
+    margin-top: 5px;
+}
+
+#bizumInfo {
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+
+#checkout h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#checkoutTitle {
+    color: #2A5B45;
+    padding: 40px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px
+}
+
+#checkout form {
+    width: 100%;
+
+}
+
+#checkout section {
+    display: flex;
+    gap: 24px;
+    padding: 24px 0;
+    align-items: center;
+}
+
+#checkout section img {
+    width: 69.23px;
+    height: 30px;
+}
+
+#bizumLabel {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#checkout input[type=radio] {
+    width: 16px;
+    height: 16px;
+    accent-color: #2A5B45;
+}
+
+#checkout input[type=text] {
+    padding: 10px 0px;
+    width: 279px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+#checkout select {
+    gap: 8px;
+    width: 521px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+}
+
+#expiration {
+    max-width: 121px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+#cvc {
+    max-width: 121px;
+}
+
+#infoCard {
+    width: 279px;
+    display: inline;
+}
+
+#infoCard label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#bankTransfer {
+    border-top: 1px solid #D1D5DB;
+    border-bottom: 1px solid #D1D5DB;
+    margin-top: 24px;
+}
+
+#methodOfPayment {
+    width: 776px;
+    margin-right: 32px;
+}
+
+#shippingAddress input[type=text] {
+    padding: 10px 0px;
+    width: 521px;
+}
+
+#shippingAddress label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#populationInfo input{
+    max-width: 248px;
+    margin-right: 24px;
+}
+
+#populationInfo label:nth-child(3){
+    margin-left: 222px;
+}
+
+#streetInfo input{
+    max-width: 112px;
+    margin-right: 23px;
+}
+
+#streetInfo{
+    margin-bottom: 52px
+}
+
+#streetInfo label{
+    margin-right: 112px;
+}
+
+#streetInfo label:nth-child(4) {
+    margin: 0 112px 0 13px;
+}
+
+.cvcLabel {
+    margin-left: 37px;
+}
+
+#checkout h6 {
+    color: red;
+    font-weight: 400;
+}

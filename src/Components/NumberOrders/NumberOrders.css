@@ -1,0 +1,21 @@
+.numberOrders{
+    text-align: center;
+    padding: 40px 0 24px;
+}
+
+.numberOrders img {
+    width: 23.33px;
+    height: 30px;
+    background-color: #2A5B45;
+    padding: 17px 20px;
+    border-radius: 20px;
+}
+
+.numberOrders h3 {
+    color: #2A5B45;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 24px;
+}
+

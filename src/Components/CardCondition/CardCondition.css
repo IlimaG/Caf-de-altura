@@ -1,0 +1,40 @@
+.cardCondition {
+    width: 316px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 4px 0 rgba(227, 222, 215, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.conditionsImg {
+    max-width: 64px;
+    max-height: 64px;
+    padding: 12px;
+    background-color: #2A5B45;
+    border-radius: 20px;
+}
+
+.conditionsImg img {
+    width: 55%;
+}
+
+.cardCondition h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.cardCondition p {
+
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+width: 268px;
+}

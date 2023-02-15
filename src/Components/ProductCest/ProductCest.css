@@ -1,0 +1,35 @@
+.productCest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 776px;
+    height: 103px; 
+}
+.productCest h3{
+    font-size: 18px;
+    font-weight: 600; 
+}
+.infoCoffe {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.infoCoffe img{
+    width: 55px;
+    height: 55px; 
+}
+
+.infoCoffeBtn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+#cest {
+    padding: 40px;
+}
+
+.productCest button{
+    background-color: transparent;   
+} 
